@@ -1,0 +1,292 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.menu{
+		text-align: right;
+		}
+		.menu ul li a{
+			font-size: 16px;
+		}
+		.menu ul li a::after {
+			position: absolute;
+			content: '';
+			width: 0;
+			height: 2px;
+			background-color: #404040;
+			display: inline-block;
+			float: right;
+			/* top: 30%; */
+			right: 0%;
+		}
+		.menu ul li a:hover::after{
+			color: #404040 !important;
+		  width: 15%;
+		  text-align: right;
+		  }
+		.menu ul li {
+			padding: 1px 10px;
+		}
+		.custombtn-1 {
+			font-size: 12px;
+		}
+		.banner_text h2 {
+			font-size: 36px;
+		}
+		.custom-button-2 {
+			padding: 0px;
+			padding: 6px 0;
+		}
+		.custom-button-2 {
+			margin-left: 11px;
+			font-size: 14px;
+		}
+		.form_input input {
+			border: none;
+			width: 90%;
+			border-bottom: 1px solid gray;
+		}
+		.custom-button-2 {
+			margin-left: 19px;
+			/* font-size: 14px; */
+			width: 91%;
+		}
+		.form_area {
+			/* padding: 54px 0; */
+			margin-top: 70px;
+		}
+		/*icon part responsive part start*/
+		.icon-text p {
+			font-size: 15px;
+			text-align: justify;
+			padding: 10px 0;
+		}
+		.icon-text h3 {
+			font-size: 15px;
+		}
+		#icon_part {
+			padding: 30px 0;
+		}
+		.icon-text h3 {
+			text-align: center;
+		}
+		.custom_btn-3 {
+			border-radius: 0;
+			/* border-radius: 22%; */
+			width: 100%;
+		}
+		/*addpart design  responsive start */
+		.custom-btn-4 {
+				border-radius: 0;
+			width: 100%;
+		}
+		.add_part_text h2{
+			font-size: 18px !important;
+		}
+		/*slideng part design start */
+		#slideng_part {
+			padding: 15px 0;
+			background-color: #09bbdb;
+		}
+		.slideng_text h5 {
+			font-size: 19px;
+		}
+		/*footer area responsive area*/
+		.add_part_text h2 {
+			font-size: 24px;
+		}
+		.footer_ara h5{
+		font-size: 15px;
+		}
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.menu{
+		text-align: right;
+		}
+		.menu ul li a{
+			font-size: 16px;
+		}
+		.menu ul li a::after {
+			position: absolute;
+			content: '';
+			width: 0;
+			height: 2px;
+			background-color: #404040;
+			display: inline-block;
+			float: right;
+			/* top: 30%; */
+			right: 0%;
+		}
+		.menu ul li a:hover::after{
+			color: #404040 !important;
+		  width: 15%;
+		  text-align: right;
+		  }
+		.menu ul li {
+			padding: 1px 10px;
+		}
+		.custombtn-1 {
+			font-size: 12px;
+		}
+		.banner_text h2 {
+			font-size: 36px;
+		}
+		.custom-button-2 {
+			padding: 0px;
+			padding: 6px 0;
+		}
+		.custom-button-2 {
+			margin-left: 11px;
+			font-size: 14px;
+		}
+		.form_input input {
+			border: none;
+			border-radius: 0;
+			margin-left: 8px;
+			width: 95%;
+		}
+		.form_area {
+			/* padding: 54px 0; */
+			margin-top: 70px;
+		}
+		/*icon part responsive part start*/
+		.icon-text p {
+			font-size: 15px;
+			text-align: justify;
+			padding: 10px 0;
+		}
+		.icon-text h3 {
+			font-size: 15px;
+		}
+		#icon_part {
+			padding: 50px 0;
+		}
+		.custom_btn-3 {
+			border-radius: 0;
+			/* border-radius: 22%; */
+			width: 100%;
+		}
+		/*addpart design  responsive start */
+		.add_part_text h2{
+			font-size: 18px !important;
+		}
+		/*slideng part design start */
+		#slideng_part {
+			padding: 20px 0;
+			background-color: #09bbdb;
+		}
+		.slideng_text h5 {
+			font-size: 19px;
+		}
+		/*footer area responsive area*/
+		.add_part_text h2 {
+			font-size: 24px;
+		}
+		.footer_ara h5{
+		font-size: 17px;
+		}
+/* this part 576px responsive design end */
+ }
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*header area responsive design start */
+.menu{
+text-align: right;
+}
+.menu ul li a{
+	font-size: 16px;
+}
+.menu ul li a::after {
+	position: absolute;
+	content: '';
+	width: 0;
+	height: 2px;
+	background-color: #404040;
+	display: inline-block;
+	float: right;
+	/* top: 30%; */
+	right: 0%;
+}
+.menu ul li a:hover::after{
+	color: #404040 !important;
+  width: 15%;
+  text-align: right;
+  }
+.menu ul li {
+	padding: 1px 10px;
+}
+.custombtn-1 {
+	font-size: 12px;
+}
+.banner_text h2 {
+	font-size: 36px;
+}
+.custom-button-2 {
+	padding: 6px;
+}
+.form_area {
+	/* padding: 54px 0; */
+	margin-top: 70px;
+}
+/*icon part responsive part start*/
+.icon-text p {
+	font-size: 15px;
+	text-align: justify;
+	padding: 10px 0;
+}
+.icon-text h3 {
+	font-size: 15px;
+}
+#icon_part {
+	padding: 50px 0;
+}
+.custom_btn-3 {
+	border-radius: 0;
+	/* border-radius: 22%; */
+	width: 100%;
+}
+/*addpart design  responsive start */
+.add_part_text h2{
+	font-size: 18px !important;
+}
+/*slideng part design start */
+#slideng_part {
+	padding: 20px 0;
+	background-color: #09bbdb;
+}
+.slideng_text h5 {
+	font-size: 19px;
+}
+/*footer area responsive area*/
+.add_part_text h2 {
+	font-size: 24px;
+}
+.footer_ara h5{
+font-size: 17px;
+}
+/*this is 768px respnsive part end*/
+}
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*header area responsive design start */
+	.menu ul li a{
+		font-size: 16px;
+	}
+	.custombtn-1 {
+		font-size: 12px;
+	}
+	.banner_text h2 {
+		font-size: 48px;
+	}
+	.custom-button-2 {
+		padding: 8px 27px;
+	}
+	.add_part_text h2 {
+		font-size: 24px;
+	}
+.footer_ara h5{
+	font-size: 17px;
+}
+/*end menimum width device */
+}
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
